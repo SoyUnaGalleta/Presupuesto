@@ -53,7 +53,7 @@ const crearGasto = (arrayNombreGasto,arrayCantidadGasto)  => {
         let cajaTres = document.createElement('p')
         cajaTres.setAttribute('class','cajaGastosTres')
         cajaTres.setAttribute('onclick',`borrarElemento(${i})`)
-        cajaTres.innerHTML = 'Borrar'
+        cajaTres.innerHTML = '<img src="assets/img/icons8-trash.svg" alt="trash">'
         detalleGastos.appendChild(cajaTres)
 
     }
