@@ -104,9 +104,3 @@ function borrarElemento(i) {
     arrayCantidadGasto.splice(i, 1)
     crearGasto(arrayNombreGasto,arrayCantidadGasto)
 }
-
-
-
-
-// Declaración de variables de ES6.
-// Objetos.
