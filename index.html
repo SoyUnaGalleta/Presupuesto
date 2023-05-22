@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP DE PRESUPUESTO</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body onload="funciones()">
+    <div class="contenedor">
+        <div class="titulo"><h1>APP de Presupuesto</h1></div>
+        <div class="izquierda">
+
+            <div class="cajaPresupuesto">
+
+                <label for="presupuesto"><p class="subTitulo">Ingresa tu presupuesto</p></label>
+                <input type="text" id="presupuesto" name="presupuesto">
+
+                <button id="botonCalcular">Calcular</button>
+
+            </div>
+
+            <div class="cajaGastos">
+
+                <label for="nombreGasto"><p class="subTitulo">Ingresa el nombre de los gastos</p></label>
+                <input type="text" id="nombreGasto" name="nombreGasto">
+
+
+                <label for="gasto"><p class="subTitulo">Ingresa la cantidad del gasto</p></label>
+                <input type="text" id="gasto" name="gasto">
+
+                <button id="botonAgregar">Añadir Gasto</button>
+
+            </div>
+
+        </div>
+
+        <div class="derecha">
+
+            <div class="calcPresupuesto">
+
+                <div class="cajaPreDerecha">
+                    <p class="tituloCajas">presupuesto</p>
+                    <span>$</span><p class="calculos">0</p>
+                </div>
+
+                <div class="cajaPreDerecha">
+                    <p class="tituloCajas">gastos</p>
+                    <span>$</span><p class="calculos">0</p>
+                </div>
+
+                <div class="cajaPreDerecha">
+                    <p class="tituloCajas">saldo</p>
+                    <span>$</span><p class="calculos">0</p>
+                </div>
+            </div>
+
+            <div class="listaGastos">
+
+                <div class="titulosGastos">
+                    <div class="cajaGastosUno">
+                        <p class="tituloCajas">gastos</p>
+                    </div>
+                    <div class="cajaPreDerecha">
+                        <p class="tituloCajas">valor</p>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="assets/js/script.js"></script>    
+</body>
+</html>

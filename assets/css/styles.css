@@ -1,0 +1,193 @@
+:root {
+
+    --dark: #000;
+    --medium: #888;
+    --mediumTwo: #ccc;
+    --light: #fff;
+    
+    --greenLight: #ddffb8;
+    --greenDark: #57a400;
+    --redLight: #facdd6;
+    --redDark: #ca1237;
+}
+
+body{
+    margin:0px;
+}
+
+h1 {
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+span {
+    margin-right: 8px;
+}
+
+.contenedor {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+.titulo {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.izquierda {
+    width: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cajaPresupuesto {
+    background: var(--greenLight);
+    border: 3px solid var(--greenDark);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.cajaPresupuesto input{
+    background: var(--greenLight);
+    border: 1px solid var(--medium);
+}
+
+#botonCalcular {
+    background: var(--greenLight);
+    border: 1px solid var(--greenDark);
+    color: var(--greenDark);
+}
+
+#botonCalcular:hover {
+    background: var(--greenDark);
+    color: var(--light);
+}
+
+.cajaGastos {
+    background: var(--redLight);
+    border: 3px solid var(--redDark);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.cajaGastos input{
+    background: var(--redLight);
+    border: 1px solid var(--medium);
+}
+
+#botonAgregar {
+    background: var(--redLight);
+    border: 1px solid var(--redDark);
+    color: var(--redDark);
+}
+
+#botonAgregar:hover {
+    background: var(--redDark);
+    color: var(--light);
+}
+
+
+.subTitulo{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+
+.derecha {
+    width: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.calcPresupuesto {
+    display: flex;
+    padding: 10px 20px 20px 20px;
+
+}
+
+.cajaPreDerecha {
+    width: 33%;
+}
+
+.tituloCajas {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.calculos {
+    font-family: Arial;
+    font-size: 17px;
+    display: inline;
+}
+
+.listaGastos {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.titulosGastos {
+    display: flex;
+    border-bottom: 1px solid var(--dark);
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 100%; 
+}
+
+.cajaGastosUno{
+    width: 50%;
+}
+
+.cajaGastosDos{
+    width: 30%;  
+}
+
+.cajaGastosTres{
+    width: 20%;
+    color: var(--redDark);
+    font-weight: bold;
+}
+
+.cajaGastosTres:hover {
+    color: var(--redLight);
+}
+
+.detalleGastos {
+    display: flex;
+    border-bottom: 1px solid var(--mediumTwo);
+    padding: 15px 10px;
+    font-family: Verdana;
+    text-transform: capitalize;
+    font-size: 14px;
+}
