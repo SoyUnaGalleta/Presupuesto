@@ -1,5 +1,5 @@
-var arrayNombreGasto = []
-var arrayCantidadGasto = []
+let arrayNombreGasto = []
+let arrayCantidadGasto = []
 
 
 function funciones() {
